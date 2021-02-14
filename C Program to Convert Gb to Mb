@@ -1,0 +1,32 @@
+
+/*
+ *  Author: Techyrick.com
+ */
+
+#include<stdio.h> 
+//#include 
+
+void main() {
+
+  unsigned long gb;
+  unsigned long mb;
+  
+
+//    clrscr();
+
+    printf(" Program to convert  Gigabyte to Megabyte :  ");
+
+    printf("\n\n Enter Length in Gigabyte  : ");
+	scanf("%lu", &gb);
+    
+    mb = gb*1024;
+    
+    printf("\n\n %lu Gb  =  %lu Mb  \n",gb,mb);
+
+
+
+//	getch();
+
+
+
+}
